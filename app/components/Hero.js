@@ -1,14 +1,8 @@
-"use client"
 import React, { useEffect } from "react";
 import Aos from "aos";
 import 'aos/dist/aos.css'
 
 const Hero = () => {
-  useEffect(() => {
-    Aos.init({
-      duration: 2000
-    })
-  }, [])
   return (
     <div className="w-full h-full flex justify-center items-center flex-col p-10 ">
       <h1 className="text-9xl translate-y-12 z-10 tracking-tight ovo">

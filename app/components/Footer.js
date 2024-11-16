@@ -1,16 +1,8 @@
-"use client";
 import React, { useEffect } from "react";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaGithub, FaLinkedin, FaPhone } from "react-icons/fa6";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const Footer = () => {
-  useEffect(() => {
-    Aos.init({
-      duration: 2000,
-    });
-  }, []);
   return (
     <div className="w-full h-full flex p-12 relative">
       <div className="flex flex-1 flex-col justify-around">

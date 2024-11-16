@@ -1,14 +1,6 @@
-"use client";
 import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const Skills = () => {
-  useEffect(() => {
-    Aos.init({
-      duration: 2000,
-    });
-  }, []);
   return (
     <div className="w-full h-full flex items-center gap-1 p-12">
       <div className="flex items-center flex-col">
